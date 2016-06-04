@@ -60,7 +60,7 @@ For example, if a post has many comments, Ember wants JSON to to be returned lik
 ```
 {
 	"post": {'id': 1,'post_title':'This is a title', 'text':'post text','comment_ids': [1,2,3]}},
-	"comments":{[
+	"comments":[
 		{'id':1,'post_id:'1','text':'test'},
 		{'id':2,'post_id:'1','text':'test'},
 		{'id':3,'post_id:'1','text':'test'}]
